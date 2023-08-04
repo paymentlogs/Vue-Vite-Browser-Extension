@@ -1,0 +1,44 @@
+{
+  "manifest_version": 3,
+  "name": "Vue x Vite Extension Boilerplate",
+  "version": "1.0.0",
+  "author": "paymentlogs",
+  "description": "Vue x Vite Extension Boilerplate",
+  "permissions": [
+    "activeTab",
+    "tabs",
+    "declarativeContent",
+    "storage",
+    "notifications",
+    "proxy",
+    "cookies",
+    "contentSettings",
+    "unlimitedStorage",
+    "contextMenus",
+    "webRequest"
+  ],
+  "icons": {},
+  "background": {
+    "service_worker": "packages/backend/background/background.js"
+  },
+  "action": {
+    "default_popup": "index.html",
+    "default_title": "Vue x Vite Extension Boilerplate"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "<all_urls>"
+      ],
+      "js": [
+        "packages/backend/content_scripts/global.js"
+      ],
+      "run_at": "document_end"
+    }
+  ],
+  "host_permissions": [],
+  "content_security_policy": {
+    "extension_pages": "default-src 'self'"
+  },
+  "web_accessible_resources": []
+}
