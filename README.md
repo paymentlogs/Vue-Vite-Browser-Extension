@@ -1,4 +1,4 @@
-#### Made by [paymentlogs](https://twitter.com/paymentlogs)
+#### Made by [voromade](https://twitter.com/voromade)
 
 <h1 align="center">☄️ Vue x Vite Browser Extension Boilerplate ☄️</h1>
 <h4 align="center">⭐ Don't forget to leave a star! ⭐</h4>

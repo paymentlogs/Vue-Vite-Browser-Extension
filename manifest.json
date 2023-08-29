@@ -2,7 +2,7 @@
   "manifest_version": 3,
   "name": "Vue x Vite Extension Boilerplate",
   "version": "1.0.0",
-  "author": "paymentlogs",
+  "author": "voromade",
   "description": "Vue x Vite Extension Boilerplate",
   "permissions": [
     "activeTab",
